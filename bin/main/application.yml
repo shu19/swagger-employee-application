@@ -1,0 +1,19 @@
+logging:
+  file: logs/application-debug.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    org.springframework.web: ERROR
+    com.hello: DEBUG
+    org.hibernate: ERROR
+spring:
+   kafka:
+     producer:
+        bootstrap-servers: localhost:9092
+        key-serializer: org.apache.kafka.common.serialization.StringSerializer
+        value-serializer: org.apache.kafka.common.serialization.StringSerializer
+     template:
+        default-topic: shubham   
+        
+        
