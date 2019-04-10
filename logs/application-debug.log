@@ -97,3 +97,12 @@ Verify the connector's configuration, identify and stop any process that's liste
 2019-04-10 15:13:13,774 INFO  [Test worker] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
 2019-04-10 15:13:13,944 INFO  [Test worker] com.employee.Employees.EmployeesApplicationTests : Started EmployeesApplicationTests in 7.155 seconds (JVM running for 9.036)
 2019-04-10 15:13:14,379 INFO  [Thread-5] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-10 15:29:49,435 INFO  [Test worker] com.employee.Employees.EmployeesApplicationTests : Starting EmployeesApplicationTests on DIN16004586 with PID 11044 (started by shuraut in D:\Users\shuraut\Desktop\spring-boot-service\swagger-employee-application)
+2019-04-10 15:29:49,439 INFO  [Test worker] com.employee.Employees.EmployeesApplicationTests : No active profile set, falling back to default profiles: default
+2019-04-10 15:29:51,888 INFO  [Test worker] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$be230c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 15:29:53,573 INFO  [Test worker] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-10 15:29:54,018 INFO  [Test worker] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-10 15:29:54,042 INFO  [Test worker] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-10 15:29:54,057 INFO  [Test worker] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2019-04-10 15:29:54,271 INFO  [Test worker] com.employee.Employees.EmployeesApplicationTests : Started EmployeesApplicationTests in 5.291 seconds (JVM running for 7.102)
+2019-04-10 15:29:54,831 INFO  [Thread-5] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
